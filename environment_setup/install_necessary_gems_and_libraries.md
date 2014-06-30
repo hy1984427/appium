@@ -6,13 +6,16 @@ Unzip and open its directory.
 
 ***I use ~/Documents/appium-master for this demo, you can choose yours, but DO remeber to change the path to yours.***
 
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/appium_master.png "appium-master")
+
 `cd ~/Documents/appium-master/sample-code/examples/ruby`
 
-Setup samples and necessary gems:
+Setup samples and install necessary gems:
 
-
-<pre><code>
-Install Ruby: \curl -L https://get.rvm.io | bash -s stable --ruby
-Install Bundler: gem install bundle
-Install Gems: bundle update
+<pre><code>gem install bundle       #install bundle
+bundle update           #install gems
 </code></pre>
+
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/install_bundle.png "Install bundle")
+
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/bundle_update.png "bundle update")

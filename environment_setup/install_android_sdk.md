@@ -3,6 +3,7 @@
 To test Android apps, we need to install Android SDK.
 
 We need to setup some system variables, through editing ~/.bash_profile as following:
+
 <pre><code>export ANDROID_HOME=/Applications/adt-bundle-mac/sdk
 PATH=$PATH:$ANDROID_HOME:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 </code></pre>
