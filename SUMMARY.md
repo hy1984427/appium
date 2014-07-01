@@ -18,4 +18,5 @@
    * [Use appium inspector to locate iOS element and record script](use_appium_inspector_to_locate_element_and_record_script/use_appium_inspector_to_locate_ios_element_and_record_script.md)
    * [Precondition of using inspector and recording script for Android](use_appium_inspector_to_locate_element_and_record_script/precondition_of_using_inspector_and_recording_script_for_android.md)
    * [Use appium inspector to locate Android element and record script](use_appium_inspector_to_locate_element_and_record_script/use_appium_inspector_to_locate_android_element_and_record_script.md)
+   * [Use uiautomatorviewer to locate Android element](use_appium_inspector_to_locate_element_and_record_script/use_uiautomatorviewer_to_locate_android_element.md)
 
