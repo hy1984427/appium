@@ -19,3 +19,5 @@ ruby xunit_android.rb
 </code></pre>
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_xunit_android_result.png "Android xunit_android.rb result")
+
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_xunit_android_emulator.png "Android xunit_android.rb emulator")

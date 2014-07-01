@@ -11,4 +11,6 @@
    * [Generate iOS app for simulator testing](execute_appium_demos_of_ios_and_android/generate_ios_app_for_simulator_testing.md)
    * [Run iOS samples](execute_appium_demos_of_ios_and_android/run_ios_samples.md)
    * [Run Android samples](execute_appium_demos_of_ios_and_android/run_android_samples.md)
+   * [Run iOS cucumber sample](execute_appium_demos_of_ios_and_android/run_ios_cucumber_sample.md)
+   * [Run Android cucumber sample](execute_appium_demos_of_ios_and_android/run_android_cucumber_sample.md)
 
