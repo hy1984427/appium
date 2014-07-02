@@ -1,8 +1,8 @@
 # Use Genymotion instead of Android AVD for emulator
 
-Since the performance of Android AVD emulator is quite low, especially not using the "host GPU", so it's better for us to use Genymotion, which is a faster Android emulator, based on VirtualBox.
+***Since the performance of Android AVD emulator is quite low, especially not using the "host GPU", so it's better for us to use Genymotion, which is a faster Android emulator, based on VirtualBox.***
 
-![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/genymotion_logo.png "Genymotion")
+***So we need to install VirtualBox and Genymotion first.***
 
 Except the emulator is hosted in a different way, it's the same to locate element using uiautomatorviewer.
 
