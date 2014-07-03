@@ -20,4 +20,11 @@
    * [Use appium inspector to locate Android element and record script](use_appium_inspector_and_similar_tool_to_locate_element_and_record_script/use_appium_inspector_to_locate_android_element_and_record_script.md)
    * [Use uiautomatorviewer to locate Android element](use_appium_inspector_and_similar_tool_to_locate_element_and_record_script/use_uiautomatorviewer_to_locate_android_element.md)
    * [Use Genymotion instead of Android AVD for emulator](use_appium_inspector_and_similar_tool_to_locate_element_and_record_script/use_genymotion_instead_of_android_avd_for_emulator.md)
+* [Write script for iOS app](write_script_for_ios_app/README.md)
+* [Write script for Android app](write_script_for_android_app/README.md)
+   * [Set parameters to launch app](write_script_for_android_app/set_parameters_to_launch_app.md)
+   * [Add a MMS](write_script_for_android_app/add_a_mms.md)
+   * [Fill information in the MMS](write_script_for_android_app/fill_information_in_the_mms.md)
+   * [Navigate back and discard message](write_script_for_android_app/navigate_back_and_discard_message.md)
+   * [Take screenshot, press Home button and close driver](write_script_for_android_app/take_screenshot,_press_home_button_and_close_driver.md)
 
