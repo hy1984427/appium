@@ -2,7 +2,7 @@
 
 What we do next is to navigate back and discard the changes we made to the message.
 
-Firstly, we just use the appium method `driver.back` to navigate back.
+Firstly, we just use the appium method `driver.back` to navigate back, same as iOS.
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_script_navigate_back.png "Navigate back from message content")
 

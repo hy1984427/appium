@@ -1,6 +1,6 @@
 # Take screenshot, press Home button and close driver
 
-For many occasions, we need to take screenshot of current view.
+For many occasions, we need to take screenshot of current screen.
 
 We can use Selenium-WebDriver method `screenshot` to do that:
 
@@ -21,7 +21,7 @@ And we can get this screen in app:
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_script_final.png "Press Home button")
 
-Finally, we need to use `driver_quit` to close the driver to end the test.
+Finally, we need to use `driver_quit` to close the driver and to end the test.
 
 Now the script should look like:
 

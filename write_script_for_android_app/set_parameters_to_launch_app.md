@@ -1,6 +1,6 @@
 # Set parameters to launch app
 
-To create a script to run Android test using Ruby, we need to create a script first. let's call it `android.rb`.
+To create a script to run Android test using Ruby, we need to create a script first. Let's call it `android.rb`.
 
 In the file, we need to import the libraries at beginning:
 
@@ -45,7 +45,7 @@ Appium.promote_appium_methods self.class
 driver.start_driver.manage.timeouts.implicit_wait = 20 # seconds
 </code></pre>
 
-![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_script_initial.png "android script with initial parameters")
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_script_initial.png "android.rb")
 
 Now, we can run `ruby android.rb` successfully; the script will launch the app.
 

@@ -1,6 +1,6 @@
 # Add a MMS
 
-We are going to add a test scenario to this script - add a MMS first, then discard it.
+We are going to add some steps to this script - add a MMS first, then discard it.
 
 So we need to find the adding message icon and click it. We can use `uiautomatorviewer` to get it.
 
