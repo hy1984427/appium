@@ -19,7 +19,6 @@ And we can get this screen in app:
 Now the script should look like:
 
 <pre><code>require 'rubygems'
-require 'rspec'
 require 'appium_lib'
 
 caps = { caps: { platformName: 'Android', appActivity: 'ui.ConversationList', appPackage: 'com.android.mms' }, appium_lib: { sauce_username: nil, sauce_access_key: nil } }

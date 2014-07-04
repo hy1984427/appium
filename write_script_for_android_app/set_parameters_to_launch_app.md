@@ -5,7 +5,6 @@ To create a script to run Android test using Ruby, we need to create a script fi
 In the file, we need to import the libraries at beginning:
 
 <pre><code>require 'rubygems'
-require 'rspec'
 require 'appium_lib'
 </code></pre>
 
@@ -38,7 +37,6 @@ driver.start_driver.manage.timeouts.implicit_wait = 20 # seconds
 After this, the script should looks like following:
 
 <pre><code>require 'rubygems'
-require 'rspec'
 require 'appium_lib'
 
 caps = { caps: { platformName: 'Android', appActivity: 'ui.ConversationList', appPackage: 'com.android.mms' }, appium_lib: { sauce_username: nil, sauce_access_key: nil } }
@@ -49,6 +47,6 @@ driver.start_driver.manage.timeouts.implicit_wait = 20 # seconds
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_script_initial.png "android script with initial parameters")
 
-Now, we can run `ruby android.rb` successfully; the script will launch the app and close it.
+Now, we can run `ruby android.rb` successfully; the script will launch the app.
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_script_initial_result.png "android script with initial parameters result")

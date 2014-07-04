@@ -26,7 +26,6 @@ Finally, we need to use `driver_quit` to close the driver to end the test.
 Now the script should look like:
 
 <pre><code>require 'rubygems'
-require 'rspec'
 require 'appium_lib'
 
 caps = { caps: { platformName: 'Android', appActivity: 'ui.ConversationList', appPackage: 'com.android.mms' }, appium_lib: { sauce_username: nil, sauce_access_key: nil } }
