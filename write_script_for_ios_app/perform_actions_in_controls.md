@@ -28,6 +28,16 @@ We can use Selenium-WebDriver method `screenshot` to help us keep record of curr
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_screenshot.png "Take screenshot")
 
+There are some gestures we can perform, such as "scroll". Let's practice it with the scenario to scroll down and increase the "UISTEPPER".
+
+We can simply use `driver.execute_script 'mobile: scroll'` to scroll down. The scrren should look like:
+
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_scroll_down.png "Scroll down")
+
+And for the increasement, we can use `find_element(:name, "Increment").click`. The screen should look like:
+
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_increase_uistepper.png "Increase UISTEPPER")
+
 And we can use another way to navigate back: `button("Back").click`.
 
 At last, we can use `driver_quit` to close the driver and to end the test.
@@ -62,6 +72,8 @@ driver.back
 find_element(:xpath, "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAStaticText[1]").click
 find_element(:name, "Standard").click
 screenshot '/tmp/ios.png' # the path here is on your machine
+driver.execute_script 'mobile: scroll'
+find_element(:name, "Increment").click
 button("Back").click
 driver_quit
 </code></pre>

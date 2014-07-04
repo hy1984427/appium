@@ -25,6 +25,8 @@ find_element(:name, "Check").send_keys "something else"
 driver.back
 find_element(:xpath, "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAStaticText[1]").click
 find_element(:name, "Standard").click
-screenshot '/tmp/ios.png'
+screenshot '/tmp/ios.png' # the path here is on your machine
+driver.execute_script 'mobile: scroll'
+find_element(:name, "Increment").click
 button("Back").click
 driver_quit
