@@ -9,11 +9,11 @@ Now, we are going to open the "Controls" menu and perform actions in it:
 
 And we will see following screen:
 
-![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_contorls.png "Open Controls")
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_controls.png "Open Controls")
 
 And we can use appium inspector to help us to find the name and other parameters we need for the "Standard Switch".
 
-![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_contorls_standard_switch.png "Use appium inspector to find name of Standard Switch")
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_controls_standard_switch.png "Use appium inspector to find name of Standard Switch")
 
 With the names, we can locate it and turn on it:
 
@@ -22,7 +22,7 @@ With the names, we can locate it and turn on it:
 
 If we run the script, we will see:
 
-![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_contorls_turn_on_standard_switch.png "Turn on standard switch")
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_controls_turn_on_standard_switch.png "Turn on standard switch")
 
 We can use Selenium-WebDriver method `screenshot` to help us keep record of current screen: `screenshot '/tmp/ios.png'`.
 
@@ -78,6 +78,4 @@ button("Back").click
 driver_quit
 </code></pre>
 
-![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_contorls_script.png "ios.rb")
-
-You can refer to the iOS script  [here](https://raw.githubusercontent.com/hy1984427/appium/master/scripts/ios.rb).
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_controls_script.png "ios.rb")

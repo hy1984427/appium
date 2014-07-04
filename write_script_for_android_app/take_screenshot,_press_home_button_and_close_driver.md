@@ -50,5 +50,3 @@ driver_quit
 </code></pre>
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/andoird_script_final_script.png "android.rb")
-
-You can refer to the Android script  [here](https://raw.githubusercontent.com/hy1984427/appium/master/scripts/android.rb).

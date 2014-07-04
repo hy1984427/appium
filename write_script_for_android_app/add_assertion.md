@@ -1,4 +1,23 @@
-require 'rubygems'
+# Add assertion
+
+In test script, an important stpe is to assert/verify result.
+
+To support assertion, we need to import 'rspec-expectations' on top of our script:
+
+<pre><code>require 'rubygems'
+require 'appium_lib'
+require 'rspec-expectations'
+</code></pre>
+
+And in the steps, we can add an assertion to check the message shown on center after discarding message.
+
+<pre><code>content = find_element id: 'com.android.mms:id/empty'
+content.text.should == "No conversations."
+</code></pre>
+
+Now the script should look like:
+
+<pre><code>require 'rubygems'
 require 'appium_lib'
 require 'rspec-expectations'
 
@@ -23,3 +42,8 @@ screenshot '/tmp/android.png' # the path here is on your machine
 driver.key_event 3 # 3 is the constant value of KEYCODE_HOME
 
 driver_quit
+</code></pre>
+
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_script_assertion_script.png "android.rb")
+
+You can refer to the Android script from [here](https://raw.githubusercontent.com/hy1984427/appium/master/scripts/android.rb).

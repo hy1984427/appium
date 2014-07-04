@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'appium_lib'
+require 'rspec-expectations'
 
 APP_PATH = '~/Documents/appium-master/sample-code/examples/ruby/UICatalog.app.zip'
 
@@ -24,7 +25,9 @@ find_element(:name, "Done").click
 find_element(:name, "Check").send_keys "something else"
 driver.back
 find_element(:xpath, "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAStaticText[1]").click
-find_element(:name, "Standard").click
+standard_switch = find_element(:name, "Standard")
+standard_switch.click
+standard_switch.value.should == 1
 screenshot '/tmp/ios.png' # the path here is on your machine
 driver.execute_script 'mobile: scroll'
 find_element(:name, "Increment").click

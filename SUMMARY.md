@@ -24,10 +24,12 @@
    * [Set parameters to launch app](write_script_for_ios_app/set_parameters_to_launch_app.md)
    * [Perform actions in TextFields](write_script_for_ios_app/perform_actions_in_textfields.md)
    * [Perform actions in Controls](write_script_for_ios_app/perform_actions_in_controls.md)
+   * [Add assertion](write_script_for_ios_app/add_assertion.md)
 * [Write script for Android app](write_script_for_android_app/README.md)
    * [Set parameters to launch app](write_script_for_android_app/set_parameters_to_launch_app.md)
    * [Add a MMS](write_script_for_android_app/add_a_mms.md)
    * [Fill information in the MMS](write_script_for_android_app/fill_information_in_the_mms.md)
    * [Navigate back and discard message](write_script_for_android_app/navigate_back_and_discard_message.md)
    * [Take screenshot, press Home button and close driver](write_script_for_android_app/take_screenshot,_press_home_button_and_close_driver.md)
+   * [Add assertion](write_script_for_android_app/add_assertion.md)
 
