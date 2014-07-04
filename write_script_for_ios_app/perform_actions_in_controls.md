@@ -26,6 +26,8 @@ If we run the script, we will see:
 
 We can use Selenium-WebDriver method `screenshot` to help us keep record of current screen: `screenshot '/tmp/ios.png'`.
 
+![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_screenshot.png "Take screenshot")
+
 And we can use another way to navigate back: `button("Back").click`.
 
 At last, we can use `driver_quit` to close the driver and to end the test.
@@ -59,7 +61,7 @@ find_element(:name, "Check").send_keys "something else"
 driver.back
 find_element(:xpath, "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAStaticText[1]").click
 find_element(:name, "Standard").click
-screenshot '/tmp/ios.png'
+screenshot '/tmp/ios.png' # the path here is on your machine
 button("Back").click
 driver_quit
 </code></pre>
