@@ -51,4 +51,4 @@ driver_quit
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/andoird_script_final_script.png "android.rb")
 
-Now, we have a successful executed Android script using appium.
+You can refer to the Android script  [here](https://raw.githubusercontent.com/hy1984427/appium/master/scripts/android.rb).

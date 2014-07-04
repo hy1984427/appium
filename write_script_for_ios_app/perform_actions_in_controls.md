@@ -67,3 +67,5 @@ driver_quit
 </code></pre>
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_contorls_script.png "ios.rb")
+
+You can refer to the iOS script  [here](https://raw.githubusercontent.com/hy1984427/appium/master/scripts/ios.rb).
