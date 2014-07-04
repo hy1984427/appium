@@ -1,19 +1,10 @@
 # Use appium inspector and similar tool to locate element and record script
 
-Appium provides us a useful tool to find the elements in iOS simulator, and record the script corresponding to our actions.
+Executing existing demos of iOS and Android successfully means the fundamental works are completed.
 
-We need to download the appium GUI tool from http://appium.io/
+If we want to write script by ourseleve, we have to know how to locate elements and get necessary parameters.
 
-For Android emulator, Android SDK provide us a similar one - uiautomatorviewer, but without the Record freature.
+In this chapter, we will talk about this.
 
-And for Android, we also need to use Genymotion, which is a faster emulator than the AVD provided by Android SDK. To install Genymotion, we also need to install VirtualBox.
+And we will find the performance of Android AVD is low, so we will introduce a new Android emulator. Our further practices will beased on the new Android emulator.
 
-To download VirtualBox and Genymotion, please go to following sites:
-
-https://www.virtualbox.org/wiki/Downloads
-
-https://cloud.genymotion.com/page/launchpad/download/
-
-![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/virtualbox_logo.png "VirtualBox")
-
-![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/genymotion_logo.png "Genymotion")

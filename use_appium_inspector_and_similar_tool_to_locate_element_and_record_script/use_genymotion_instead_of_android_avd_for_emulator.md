@@ -14,3 +14,4 @@ Once you have found the elements on one page, and write script by your self, you
 
 The uiautomatorviewer doesn't provide the "Record" feature.
 
+Everything is ready, it's time for us to write our first iOS script from scratch.

@@ -14,6 +14,7 @@
    * [Run iOS cucumber sample](execute_appium_demos_of_ios_and_android/run_ios_cucumber_sample.md)
    * [Run Android cucumber sample](execute_appium_demos_of_ios_and_android/run_android_cucumber_sample.md)
 * [Use appium inspector and similar tool to locate element and record script](use_appium_inspector_and_similar_tool_to_locate_element_and_record_script/README.md)
+   * [Tools needed](use_appium_inspector_and_similar_tool_to_locate_element_and_record_script/tools_needed.md)
    * [Precondition of using inspector and recording script for iOS](use_appium_inspector_and_similar_tool_to_locate_element_and_record_script/precondition_of_using_inspector_and_recording_script_for_ios.md)
    * [Use appium inspector to locate iOS element and record script](use_appium_inspector_and_similar_tool_to_locate_element_and_record_script/use_appium_inspector_to_locate_ios_element_and_record_script.md)
    * [Precondition of using inspector and recording script for Android](use_appium_inspector_and_similar_tool_to_locate_element_and_record_script/precondition_of_using_inspector_and_recording_script_for_android.md)
@@ -25,6 +26,7 @@
    * [Perform actions in TextFields](write_script_for_ios_app/perform_actions_in_textfields.md)
    * [Perform actions in Controls](write_script_for_ios_app/perform_actions_in_controls.md)
    * [Add assertion](write_script_for_ios_app/add_assertion.md)
+* [Migrate iOS script into Cucumber features](migrate_ios_script_into_cucumber_features/README.md)
 * [Write script for Android app](write_script_for_android_app/README.md)
    * [Set parameters to launch app](write_script_for_android_app/set_parameters_to_launch_app.md)
    * [Add a MMS](write_script_for_android_app/add_a_mms.md)
@@ -32,4 +34,5 @@
    * [Navigate back and discard message](write_script_for_android_app/navigate_back_and_discard_message.md)
    * [Take screenshot, press Home button and close driver](write_script_for_android_app/take_screenshot,_press_home_button_and_close_driver.md)
    * [Add assertion](write_script_for_android_app/add_assertion.md)
+* [Migrate Android script into Cucumber features](migrate_android_script_into_cucumber_features/README.md)
 
