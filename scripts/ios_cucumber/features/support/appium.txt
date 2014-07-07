@@ -1,0 +1,8 @@
+[caps]
+platformName = "iOS"
+versionNumber = "7.1"
+app = "~/Documents/appium-master/sample-code/examples/ruby/UICatalog.app.zip"
+
+[appium_lib]
+sauce_username = false
+sauce_access_key = false

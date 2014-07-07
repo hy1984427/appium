@@ -1,0 +1,8 @@
+[caps]
+platformName = "Android"
+appActivity = "ui.ConversationList"
+appPackage = "com.android.mms"
+
+[appium_lib]
+sauce_username = false
+sauce_access_key = false
