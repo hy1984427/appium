@@ -14,7 +14,7 @@ The last one is the screenshot when the message is discarded.
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_cucumber_standard_switch_status.png "Screenshot in Android Cucumber")
 
-You can refer to the Android Cucumber script from [here](https://raw.githubusercontent.com/hy1984427/appium/master/scripts/android_cucumber).
+You can refer to the Android Cucumber script from [here](https://github.com/hy1984427/appium/tree/master/scripts/android_cucumber).
 
 This is all for Android.
 

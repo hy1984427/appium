@@ -63,6 +63,6 @@ driver_quit
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_script_assertion_script.png "ios.rb")
 
-You can refer to the iOS script from [here](https://raw.githubusercontent.com/hy1984427/appium/master/scripts/ios.rb).
+You can refer to the iOS script from [here](https://github.com/hy1984427/appium/blob/master/scripts/ios.rb).
 
 We will migrate this script to Cucumber feature in next chapter.

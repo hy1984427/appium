@@ -14,6 +14,6 @@ The last one is the screenshot when the standard switch is turned on.
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_cucumber_standard_switch_status.png "Screenshot in iOS Cucumber")
 
-You can refer to the iOS Cucumber script from [here](https://raw.githubusercontent.com/hy1984427/appium/master/scripts/ios_cucumber).
+You can refer to the iOS Cucumber script from [here](https://github.com/hy1984427/appium/tree/master/scripts/ios_cucumber).
 
 This is all for iOS, we will talk about Android in next chapter.
