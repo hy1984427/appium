@@ -2,7 +2,7 @@
 
 Cucumber is focused on the business oriented, so we will create features first.
 
-We will create 2 features under "features" folder, they are `TextFields.feature` and `Controls.feature`.
+We will create 2 features under "features" folder, they are "*TextFields.feature*" and "*Controls.feature*".
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_cucumber_folder_structure_features.png "features")
 

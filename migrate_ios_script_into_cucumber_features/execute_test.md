@@ -1,6 +1,6 @@
 # Execute test
 
-In the "Terminal", we need to strat `appium` first, and then go to the iOS Cucumber folder, then run `cucumber` to run 2 features together.
+In the "Terminal", we need to strat `appium` first, and go to the iOS Cucumber folder, then run `cucumber` to execute "TextFields.feature" and "Controls.feature" together.
 
 And we will get the tests all "Pass":
 

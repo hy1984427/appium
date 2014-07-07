@@ -1,6 +1,8 @@
 # Execute test
 
-In the "Terminal", we need to strat `appium` first, and then go to the iOS Cucumber folder, then run `cucumber` to run "mms.feature".
+First of all, we need to start Android emulator.
+
+And in the "Terminal", we need to strat `appium` first, then go to the Android Cucumber folder, and run `cucumber` to execute "mms.feature".
 
 And we will get the tests all "Pass":
 
@@ -18,7 +20,7 @@ You can refer to the Android Cucumber script from [here](https://github.com/hy19
 
 This is all for Android.
 
-Now, it's your turn to use them in your project and with BDD, Page Object and other techniques.
+Now, it's your turn to use them in your project, with BDD, Page Object and other techniques.
 
 For BDD and Page Object with Cucumber, you can refer to another handbook of mine: [BDD with PageObject](http://hy1984427.github.io/BDD-with-PageObject/).
 

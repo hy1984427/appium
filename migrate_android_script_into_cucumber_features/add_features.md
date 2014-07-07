@@ -2,7 +2,7 @@
 
 Cucumber is focused on the business oriented, so we will create features first.
 
-We will create feature `mms.feature` under "features" folder.
+We will create feature "*mms.feature*" under "features" folder.
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_cucumber_folder_structure_features.png "features")
 

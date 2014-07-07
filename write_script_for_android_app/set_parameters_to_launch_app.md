@@ -1,6 +1,6 @@
 # Set parameters to launch app
 
-To create a script to run Android test using Ruby, we need to create a script first. Let's call it `android.rb`.
+To create a script to run Android test using Ruby, we need to create a script first. Let's call it "*android.rb*".
 
 In the file, we need to import the libraries at beginning:
 
@@ -13,9 +13,9 @@ As we are going to test the system app "Messaging", so we need to define the par
 <pre><code>caps = { caps: { platformName: 'Android', appActivity: 'ui.ConversationList', appPackage: 'com.android.mms' }, appium_lib: { sauce_username: nil, sauce_access_key: nil } }
 </code></pre>
 
-You can see we defined the `appActivity` and `appPackage`, so we need to find them first.
+You can see we defined the "*appActivity*" and "*appPackage*", so we need to find them first.
 
-We can use `hierarchyviewer` to easily find them:
+We can use "*hierarchyviewer*" to easily find them:
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_hierarchyviewer.png "hierarchyviewer to find appPackage and appActivity")
 

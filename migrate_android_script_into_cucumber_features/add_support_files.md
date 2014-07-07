@@ -2,7 +2,7 @@
 
 This is the most unique step in appium Cucumber test comparing to other Cucumber test.
 
-We need to add `env.rb` and `appium.txt` under "support" folder.
+We need to add "*env.rb*" and "*appium.txt*" under "support" folder.
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/android_cucumber_folder_structure_support.png "support")
 

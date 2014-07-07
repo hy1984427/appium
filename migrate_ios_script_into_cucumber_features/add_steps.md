@@ -2,7 +2,7 @@
 
 After features, we need to add the steps to actual execute call the methods.
 
-We just need to create one file `steps.rb` under "step_definitions" folder.
+We just need to create one file "*steps.rb*" under "step_definitions" folder.
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/ios_cucumber_folder_structure_steps.png "step_definitions")
 

@@ -21,7 +21,9 @@ appium                  # start appium to see whether it works
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/start_appium.png "Start appium")
 
-For Android, we also need to install "ant" and "maven":
+***To upgrade appium, you just need to run `npm install -g appium` again.***
+
+For **Android**, we also need to install "ant" and "maven":
 <pre><code>brew install ant
 brew install maven
 </code></pre>

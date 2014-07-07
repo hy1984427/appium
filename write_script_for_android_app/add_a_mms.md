@@ -4,7 +4,7 @@ We are going to add some steps to this script - add a MMS first, then discard it
 
 So we need to find the adding message icon and click it. We can use `uiautomatorviewer` to get it.
 
-We can get the `resource-id` of the icon, and use it to locate it, then click it.
+We can get the "*resource-id*" of the icon, and use it to locate it, then click it.
 
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/resource_id_of_adding_message_icon_in_uiautomatorviewer.png "get resource-id of adding message icon in uiautomatorviewer")
 

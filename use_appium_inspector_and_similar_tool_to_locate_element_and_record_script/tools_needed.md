@@ -10,10 +10,10 @@ And for Android, we also need to use Genymotion, which is a faster emulator than
 
 To download VirtualBox and Genymotion, please go to following sites:
 
-https://www.virtualbox.org/wiki/Downloads
-
-https://cloud.genymotion.com/page/launchpad/download/
-
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/virtualbox_logo.png "VirtualBox")
 
+https://www.virtualbox.org/wiki/Downloads
+
 ![Alt text](https://raw.githubusercontent.com/hy1984427/appium/master/images/genymotion_logo.png "Genymotion")
+
+https://cloud.genymotion.com/page/launchpad/download/

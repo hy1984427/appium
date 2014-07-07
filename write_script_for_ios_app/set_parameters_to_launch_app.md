@@ -1,6 +1,6 @@
 # Set parameters to launch app
 
-To create a script to run iOS test using Ruby, we need to create a script first. Let's call it `ios.rb`.
+To create a script to run iOS test using Ruby, we need to create a script first. Let's call it "*ios.rb*".
 
 In the file, we need to import the libraries at beginning:
 
