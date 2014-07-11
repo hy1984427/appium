@@ -6,4 +6,4 @@ This is an appium handbook using Ruby, including environment setup and basic scr
 
 The handbook is written based on appium v1.1.0.
 
-In appium v1.2.0, the "deviceNAME“ is became mandatory, so we need add this parameter to our script. *The value can be anything*
+In appium v1.2.0, the "deviceNAME" becomes mandatory, so we need add this parameter to our script. *The value can be anything*
